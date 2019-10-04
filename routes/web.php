@@ -17,10 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/search', function () {
-    $q = Input::get('q');
-    dd($q);
-});
+
 
 Auth::routes();
 
