@@ -11,7 +11,6 @@
 |
 */
 
-use Illuminate\Routing\Route;
 use Illuminate\Support\Facades\Input;
 
 Route::get('/', function () {
