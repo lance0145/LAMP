@@ -82,7 +82,7 @@
                 <div class="title m-b-md">
                     Wegenies
                 </div>
-                <form action="/search" method="POST" role="search">
+                <form action="{{URL::to('/search')}}" method="POST" role="search">
                     {{ csrf_field() }}
                     <div class="input-group">
                         <input type="text" class="form-control" name="q"
