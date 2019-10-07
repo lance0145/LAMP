@@ -16,6 +16,11 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <style>
+            @font-face {
+                font-family: 'Glyphicons Halflings';
+                src: url('../fonts/glyphicons-halflings-regular.eot');
+                src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+            }
             html, body {
                 background-color: #fff;
                 color: #636b6f;
@@ -84,7 +89,7 @@
                     {{ csrf_field() }}
                     <div class="input-group">
                         <input type="text" class="form-control" name="q"
-                               placeholder="Search users"> <span class="input-group-btn">
+                               placeholder="Search wishes"> <span class="input-group-btn">
 					<button type="submit" class="btn btn-default">
 						<span class="glyphicon glyphicon-search"></span>
 					</button>
